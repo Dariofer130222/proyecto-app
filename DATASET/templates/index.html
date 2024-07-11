@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Permiso de Trabajo</title>
+</head>
+<body>
+    <h1>Verificación de Permiso de Trabajo</h1>
+    <form id="form-verificacion">
+        <label for="cedula">Ingrese su número de cédula:</label>
+        <input type="text" id="cedula" name="cedula" required>
+        <button type="submit">Verificar Permiso</button>
+    </form>
+    <p id="resultado"></p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
